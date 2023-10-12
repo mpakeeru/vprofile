@@ -1,1 +1,6 @@
-
+version: 0.0
+os: linux
+files:
+  - source: /target/vprofile-v2.war
+    destination: /var/lib/tomcat9/webapps
+file_exists_behavior: OVERWRITE
